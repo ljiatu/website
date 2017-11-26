@@ -49,6 +49,7 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+/* Puree Animation related. */
 @keyframes puree {
   from {
     right: -25%;
@@ -58,13 +59,17 @@ a:hover:before {
   }
 }
 
-/* The element to apply the animation to */
 img.puree {
   position: fixed;
   bottom: 0;
   right: -25%;
+  visibility: visible;
   animation-name: puree;
   animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+img.hidden {
+  visibility: hidden;
 }
