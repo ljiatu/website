@@ -2,13 +2,6 @@ body {
   background-color: #768c9f;
 }
 
-body > .vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
 ul {
   margin-top: 4%;
   list-style-type: none;
@@ -54,4 +47,10 @@ a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.puree {
+  position: fixed;
+  bottom: 0;
+  right: -25%;
 }
