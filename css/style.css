@@ -27,7 +27,7 @@ a:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 3px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: white;
@@ -49,8 +49,22 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-.puree {
+@keyframes puree {
+  from {
+    right: -25%;
+  }
+  to {
+    right: 125%;
+  }
+}
+
+/* The element to apply the animation to */
+img.puree {
   position: fixed;
   bottom: 0;
   right: -25%;
+  animation-name: puree;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
