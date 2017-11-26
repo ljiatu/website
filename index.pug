@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    )
+    link(rel="stylesheet" type="text/css" href="css/style.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2")
+    title Jiatu Liu
+  body
+    .container-fluid
+      .row
+        .col
+          ul
+            li: a(href="assets/Resume.pdf" target="_blank") Resume
+            li: a(href="https://www.linkedin.com/in/jiatu-liu-a411494b/" target="_blank") LinkedIn
+            li: a(href="https://www.instagram.com/ljiatu/" target="_blank") Instagram
+            li: a(href="mailto:ljiatu@hotmail.com") Email
+
+      .row
+        .col
+        .col-6
+          h1
+            | Jiatu Liu is a software engineer at
+            |
+            a(href="https://www.opendoor.com" target="_blank") Opendoor,
+            br
+            | and
+            |
+            a(id="sit" href="#") Puree sitter
+            |
+            | at home.
+        .col
+
+      .row
+        img.puree(src="img/puree.gif")
+        img.puree.hidden(src="https://vignette.wikia.nocookie.net/freerealmswarriorcats/images/7/7a/03159-Black-and-white-cat-sitting-white-background.jpg/revision/latest/scale-to-width-down/483?cb=20140413133323")
+
+      <!-- Bootstrap -->
+      script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous")
+      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous")
+      <!-- jQuery -->
+      script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+      <!-- Puree move -->
+      script(src="js/puree.js")
