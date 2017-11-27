@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Dependencies for my personal website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljiatu/website.git"
+  },
+  "author": "Jiatu Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljiatu/website/issues"
+  },
+  "homepage": "https://github.com/ljiatu/website#readme"
+}
