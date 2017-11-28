@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.2",
+    "heroku-ssl-redirect": "0.0.4",
     "path": "^0.12.7",
     "pug": "^2.0.0-rc.4",
     "serve-favicon": "^2.4.5"
