@@ -59,8 +59,8 @@ img.puree {
   position: fixed;
   right: 0;
   visibility: hidden;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 @media (min-width: 720px) {
