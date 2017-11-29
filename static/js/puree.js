@@ -1,15 +1,10 @@
 $(() => {
   const puree = $('.puree');
-  $('#sit').hover(
+  $('#show').hover(
     () => {
-      puree.css({
-        'animation-play-state': 'paused'
-      }).toggleClass('hidden');
+      puree.css({ visibility: 'visible' });
     },
     () => {
-      puree.css({
-        'animation-play-state': 'running'
-      }).toggleClass('hidden');
-    }
-    );
+      puree.css({ visibility: 'hidden' });
+    });
 });

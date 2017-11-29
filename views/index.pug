@@ -2,6 +2,7 @@ doctype html
 html
   head
     meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width")
     link(
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
@@ -10,7 +11,6 @@ html
     )
     link(rel="stylesheet" type="text/css" href="/static/css/style.css")
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2")
-    link(rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico")
     title Jiatu Liu
   body
     .container-fluid
@@ -21,9 +21,6 @@ html
             li: a(href="https://www.linkedin.com/in/jiatu-liu-a411494b/" target="_blank") LinkedIn
             li: a(href="https://www.instagram.com/ljiatu/" target="_blank") Instagram
             li: a(href="mailto:ljiatu@hotmail.com") Email
-
-      .row
-        .col
         .col-6
           h1
             | Jiatu Liu is a software engineer at
@@ -31,14 +28,11 @@ html
             a(href="https://www.opendoor.com" target="_blank") Opendoor
             | , and
             |
-            a(id="sit" href="#") Puree
+            a(id="show" href="#") Puree
             |
             | sitter at home.
         .col
-
-      .row
-        img.puree(src="/static/images/puree.gif")
-        img.puree.hidden(src="/static/images/sitting-puree.png")
+          img.puree(src="/static/images/puree.png")
 
     <!-- Bootstrap -->
     script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
